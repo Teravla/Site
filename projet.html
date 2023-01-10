@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible">
+
+        <title>Efrei Craft</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="./projet.css">
+
+        <link rel="shortcut icon" href="./favicon.png" type="image/png">
+        
+        <meta property="og:title" content="Efrei Craft"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://efreicraft.fr/"/>
+        <meta property="og:image" content="https://efreicraft.fr/img/favicon.png"/>
+        <meta property="og:description" content="Le serveur Minecraft de l’Efrei, avec des joueurs comme des développeurs, pour vous proposer la meilleure expérience possible !"/>
+        <meta name="theme-color" content="#2F1E44">
+    </head>
+
+
+    <body>
+        <header>
+            <h1 class="logo"><a href="./index.html">EFREICRAFT</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Accueil</a></li>
+                    <li><a href="./projet.html">Projets</a></li>
+                    <li><a href="/events">Events</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <form action="/formulaire-projet" method="post">
+            <div>
+                <label for="name" class="form_text">Titre du projet :</label>
+                <input type="text" id="name" name="projet_name" required class="imput_text">
+            </div>
+            <div>
+                <label for="description" class="form_text">Description:</label>
+                <input type="text" id="description" name="projet_description" required class="imput_text">
+            </div>
+            <div>
+                <label for="corps" class="form_text">Projet :</label>
+                <textarea id="corps" name="projet_corps" required class="imput_text">&#201;crivez ici le sujet de votre projet, il sera soumis à l'équipe build ou dev</textarea>
+            </div>
+
+            <div class="equipe">
+                <input type="radio" name="equipe" class="button_team">
+                <label for="Dev" class="team_form">Team Dev</label>
+            </div>
+
+            <div>
+                <input type="radio" name="equipe" class="button_team">
+                <label for="Build" class="team_form">Team Build</label>
+            </div>
+
+             <div class="button">
+                <button type="submit">Envoyer</button>
+            </div>
+
+
+        </form>
+
+
+
+
+
+        <script src="/js/app.js"></script>
+    </body>
+</html>

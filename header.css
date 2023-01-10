@@ -1,0 +1,67 @@
+
+@font-face {
+    font-family: "Minercraftory";
+    src: url(./Minercraftory.ttf)
+}
+
+
+
+header {
+    padding: 20px;
+    width: calc(100vw - 40px);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #010103;
+}
+
+header {
+    color: #FEEBD7;
+}
+
+header h1.logo a, header h1.logo {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Minercraftory';
+    cursor: pointer;
+    text-decoration: none;
+    color: #FEEBD7;
+}
+
+header h1.logo:hover a{
+    color: #72B148;
+    transition: .5s;
+}
+
+
+nav ul {
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 10px;
+    margin: 0 5px;
+    color: #FEEBD7;
+    text-decoration: none;
+    border-bottom: 0 solid #72B148;
+}
+
+nav ul li a:hover {
+    transition: .1s;
+    color: #72B148;
+    border-bottom: 2px solid #72B148;
+}
+
+h1 {
+    font-family: 'Minercraftory';
+}
