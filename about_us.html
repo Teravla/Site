@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible">
+
+        <title>Efrei Craft</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="./about_us.css">
+
+        <link rel="shortcut icon" href="./favicon.png" type="image/png">
+        
+        <meta property="og:title" content="Efrei Craft"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://efreicraft.fr/"/>
+        <meta property="og:image" content="https://efreicraft.fr/img/favicon.png"/>
+        <meta property="og:description" content="Le serveur Minecraft de l’Efrei, avec des joueurs comme des développeurs, pour vous proposer la meilleure expérience possible !"/>
+        <meta name="theme-color" content="#2F1E44">
+    </head>
+
+
+    <body>
+        <header>
+            <h1 class="logo"><a href="./index.html">EFREICRAFT</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Accueil</a></li>
+                    <li><a href="./about_us.html">Découvrez EFREI Craft</a></li>
+                    <li><a href="./projet.html">Projets</a></li>
+                    <li><a href="#">Events</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="main_about_us">
+            <h2>Le jeu le plus <strong>populaire</strong> de l'Efrei</h2>
+        </div>
+
+
+        <!-- Slideshow container -->
+        <div class="global_slide">
+            <div class="div_text_slide">
+                <div class="div_text_slide_2">
+                    <p id="text_slide" class="text_slide"></p>
+                    <p id="ss_slide" class="ss_slide"></p>
+                    <p id="description_slide" class="description_slide"></p>
+                </div>
+            </div>
+            <div class="team_slide">
+                <!-- Full-width images with number and caption text -->
+                <div class="Slides fade">
+                    <div class="numbertext">1 / 7</div>
+                    <img src="./img_1.jpg" alt="Antoine">
+                </div>
+
+                <div class="Slides fade">
+                    <div class="numbertext">2 / 7</div>
+                    <img src="./img_2.jpg" alt="Roch">
+                </div>
+
+                <div class="Slides fade">
+                    <div class="numbertext">3 / 7</div>
+                    <img src="./img_3.jpg" alt="Gabriel">
+                </div>
+
+                <div class="Slides fade">
+                    <div class="numbertext">4 / 7</div>
+                    <img src="./img_4.jpg" alt="Theo">
+                </div>
+
+                <div class="Slides fade">
+                    <div class="numbertext">5 / 7</div>
+                    <img src="./img_5.jpg" alt="Minoth">
+                </div>
+
+                <div class="Slides fade">
+                    <div class="numbertext">6 / 7</div>
+                    <img src="./img_6.jpg" alt="Idir">
+                </div>
+
+                <div class="Slides fade">
+                    <div class="numbertext">7 / 7</div>
+                    <img src="./img_7.jpg" alt="Shavinxus">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="footer">
+                <div class="row">
+                    <div class="colonne_footer">
+                        <h4>Contactez-nous</h4>
+                        <p>Adresse : 30-32 avenue de la République, 94 800 Villejuif</p>
+                        <p>Téléphone : {}</p>
+                        <p>Email : bureau@efreicraft.fr</p>
+                    </div>
+                    <!--<div class="colonne_footer">
+                        <h4>Liens utiles</h4>
+                        <ul class="social-icons-ul">
+                            <li><a href="#">A propos de nous</a></li>
+                            <li><a href="#">Politique de confidentialité</a></li>
+                            <li><a href="#">Conditions d'utilisation</a></li>
+                        </ul>
+                    </div>-->
+                    <div class="colonne_footer">
+                        <h4>Suivez-nous</h4>
+                        <ul class="social-icons">
+                            <li><a href="https://discord.gg/5kfu9D69AJ" class="discord_icon"><i class="fa-brands fa-discord"></i></a></li>
+                            <li><a href="https://github.com/efrei-craft"><i class="fa-brands fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p class="copyright">Copyright ©2022 EfreiCraft</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        
+
+
+
+        <script src="./script.js"></script>
+    </body>
+</html>

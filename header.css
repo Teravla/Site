@@ -4,11 +4,27 @@
     src: url(./Minercraftory.ttf)
 }
 
+/*::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #FEEBD7;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb {
+    background: #2F1E44;
+    border-radius: 50px;
+}
+*/
+
+:root{
+    --width-form : 600px;
+}
 
 
 header {
     padding: 20px;
-    width: calc(100vw - 40px);
+    width: auto;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
@@ -65,3 +81,34 @@ nav ul li a:hover {
 h1 {
     font-family: 'Minercraftory';
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Color: 
+
+Green : 72B148
+Purple : 2F1E44
+Grey : 466970
+White : FEEBD7
+
+*/

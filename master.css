@@ -1,4 +1,5 @@
 @import url(header.css);
+@import url(footer.css);
 
 body {
     font-family: sans-serif;
@@ -24,4 +25,34 @@ body {
 .discord_icon:hover {
     transition: .3s;
     color: #72B148;
+}
+
+
+.main_video {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 60px auto 60px auto;
+}
+
+.main_title {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(70, 105, 112, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 50px;
+    font-family: 'Minercraftory';$
+    font-weight: 100;
+    font-style: italic;
+    letter-spacing: 6px;
+}
+
+video {
+    width: 70%;
+    height: 50%;
 }
