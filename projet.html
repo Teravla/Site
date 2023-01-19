@@ -36,33 +36,35 @@
         </header>
 
 
-        <form action="./Main.php" method="post">
+        <form method="post" action="main.php">
             <div>
-                <label for="name" class="form_text">Titre du projet :</label>
-                <input type="text" id="name" name="projet_name" required class="imput_text">
+                <label for="projet_name" class="form_text">Titre du projet :</label>
+                <input type="text" id="projet_name" name="projet_name" required class="imput_text" value="Bob">
             </div>
             <div>
-                <label for="description" class="form_text">Description:</label>
-                <input type="text" id="description" name="projet_description" required class="imput_text">
+                <label for="projet_description" class="form_text">Description:</label>
+                <input type="text" id="projet_description" name="projet_description" required class="imput_text" value="Bob">
             </div>
             <div>
-                <label for="corps" class="form_text">Projet :</label>
-                <textarea id="corps" name="projet_corps" required class="imput_text">&#201;crivez ici le sujet de votre projet, il sera soumis à l'équipe build ou dev</textarea>
+                <label for="projet_corps" class="form_text">Projet :</label>
+                <textarea id="projet_corps" name="projet_corps" required class="imput_text">&#201;crivez ici le sujet de votre projet, il sera soumis à l'équipe build ou dev</textarea>
             </div>
 
             <div class="equipe">
-                <input type="radio" name="equipe" class="button_team">
+                <input type="radio" name="team" class="button_team">
                 <label for="Dev" class="team_form">Team Dev</label>
             </div>
 
             <div>
-                <input type="radio" name="equipe" class="button_team">
+                <input type="radio" name="team" class="button_team">
                 <label for="Build" class="team_form">Team Build</label>
             </div>
 
              <div class="button">
-                <button type="submit">Envoyer</button>
+                <button type="submit" value="Submit">Envoyer</button>
             </div>
+
+
 
 
         </form>
@@ -105,3 +107,4 @@
         <script src="./script.js"></script>
     </body>
 </html>
+

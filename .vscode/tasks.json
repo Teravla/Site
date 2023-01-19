@@ -7,7 +7,7 @@
             "command": "php -S localhost:9000",
             "problemMatcher": [],
             "group": {
-                "kind": "build",
+                "kind": "test",
                 "isDefault": true
             }
         }
