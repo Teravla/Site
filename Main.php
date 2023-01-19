@@ -31,17 +31,17 @@
             $corps =  $_POST['projet_corps'];
         }
 
-        if (isset($_POST['team']))
-        {
-            $team =  $_POST['team'];
-        }
+        $team =  $_POST['team'];
+        
 
-        $content = "Nom du projet : " . $name . "\n" . "Description du projet : " . $description . "\n" . "Pour plus de detail : " . $corps . "\n\n" . "Equipe concerné " . $team;
+        $content = "Nom du projet : " . $name . "\n" . "Description du projet : " . $description . "\n" . "Pour plus de detail : " . $corps . "\n\n" . "Equipe concerné : " . $team;
 
         file_put_contents('Stockage_Donnees.txt', $content);
 
-        echo "C'est bon"
+        echo "C'est bon \n \n";
+        echo "";
 
+        echo $team;
 
 
 
