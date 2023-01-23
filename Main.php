@@ -1,23 +1,4 @@
 <?php
-
-        
-        $user = 'root';
-        $password = 'root';
-        $db = 'inventory';
-        $host = 'localhost';
-        $port = 3306;
-
-        $link = mysqli_init();
-        $success = mysqli_real_connect(
-                $link, 
-                $host, 
-                $user, 
-                $password, 
-                $db,
-                $port
-        );
-
-
         if (isset($_POST['projet_name']))
         {
             $name =  $_POST['projet_name'];
@@ -38,6 +19,18 @@
 
         file_put_contents('Stockage_Donnees.txt', $content);
 
+
+        $sql = "INSERT INTO efrei_craft_db (projet_name, projet_description, projet_corps)
+                VALUES ('$name', '$description', '$corps')";
+
+        if ($conn->query($sql) === TRUE) {
+            echo "New record created successfully";
+        } else {
+            echo "Error: " . $sql . "<br>" . $conn->error;
+        }
+
+
+        
         echo "C'est bon \n \n";
         echo "";
 
@@ -46,4 +39,6 @@
 
 
 
+
+        $conn->close();
 ?>

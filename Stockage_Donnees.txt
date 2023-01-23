@@ -1,5 +1,5 @@
-Nom du projet : Bob
-Description du projet : Bob
-Pour plus de detail : Écrivez ici le sujet de votre projet, il sera soumis à l'équipe build ou dev
+Nom du projet : 
+Description du projet : 
+Pour plus de detail : 
 
-Equipe concerné : Equipe_Dev
+Equipe concerné : 
